@@ -10,9 +10,11 @@ Esta tarea es todavía un desafío dada la poca precisión que se puede obtener 
 Si se consiguieran buenos resultados resultaría mucho más fácil medir los efectos de las enfermedades y las condiciones de tratamientos en las células neuronales, además de que nuevos fármacos se podrían crear para tratar a millones de personas con estos trastornos.
 
 *Evaluación*
+
 Se utilizará la precisión media en diferentes umbrales de la función de intersección sobre la unión (*IoU*). Esta métrica, se considera que para este proyecto sería exitosa si está por encima de 0.5.
 
 *Descripción de los datos*
+
 Las imágenes son 2D (en formato png), hay otros datos como el identificador único por objeto, las anotaciones de la máscara (en píxeles codificados para cada célula), la dimensión de la imagen (ancho y alto), el tipo de célula, el momento de creación de la placa, la fecha de creación de la muestra, el identificador de la muestra y el tiempo pasado desde que se tomó la primera imagen.
 
 *Retos del problema*
